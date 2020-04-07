@@ -9,7 +9,7 @@
 
 ## Overview
 
-
+Ono On-The-Way is a web application that UH Manoa students can use when they do not want interrupt their work to go out for on-campus food. Students are able to register with the site as either a deliverer or a buyer. Buyers can request for food, and deliverers can fulfill the orders.
 
 ## User Guide
 
