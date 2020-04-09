@@ -79,7 +79,11 @@ This section provides a walkthrough of the ono-otw.
 
 
 ### Milestone 1: Mockup development
-<img src="/Images/Landing-Mock Up.png	">
+Landing page for those that are not logged in.
+<img src="/Images/Landing-Mock%20Up.png">
+
+Landing page for logged in users.
+<img src="/Images/Landing-Signed-inMock%20Up.png">
 
 ### Milestone 2: Data model development
 
