@@ -99,7 +99,7 @@ Landing page for logged in users.
 ## Contributors 
 Here are the people who worked on this project:
 
-Andre Ruiz <a href = "https://ruizaj.github.io/">Github</a>
+Andre Ruiz: Find his Github <a href = "https://ruizaj.github.io/">here.</a> 
 
 
 
