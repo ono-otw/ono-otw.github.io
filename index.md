@@ -1,15 +1,21 @@
 ## Table of contents
 
-* [Overview](#overview)
 * [User Guide](#user-guide)
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Walkthrough videos](#walkthrough-videos)
 
-## Overview
+## Welcome to Ono On-The-Way
 
 Ono On-The-Way is a web application that UH Manoa students can use when they do not want interrupt their work to go out for on-campus food. Students are able to register with the site as either a deliverer or a buyer. Buyers can request for food, and deliverers can fulfill the orders.
+
+### Goals 
+
+Our goals for Ono On-The-Way is:
+- To provide a directory of restaurants and vendors in or around the vicinity of the UH campus.
+- Provide a facet for food to be delivered at a specific location on campus.
+- Allows deliverers a list of orders to choose from, depending on location.
 
 ## User Guide
 
