@@ -79,7 +79,7 @@ This section provides a walkthrough of the ono-otw.
 
 
 ### Milestone 1: Mockup development
-
+![landing](Images/Landing-Mock Up.png)
 
 
 ### Milestone 2: Data model development
