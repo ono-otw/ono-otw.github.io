@@ -101,6 +101,12 @@ Here are the people who worked on this project:
 
 Andre Ruiz: Find his Github <a href = "https://ruizaj.github.io/">here.</a> 
 
+Jennifer Hsu: Find her Github <a href = "http://jhsup.github.io/">here.</a> 
+
+Jin Yan Wu: Find her Github <a href = "https://wjinyan.github.io/">here.</a> 
+
+Timoteo Sumalinog: Find his Github <a href = "https://timoteosumalinogiii.github.io/">here.</a> 
+
 
 
 
