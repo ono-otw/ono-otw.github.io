@@ -1,14 +1,16 @@
 ## Table of contents
+* [Overview](#overview)
+* [Goals](#goals)
+* [Development History](#project-development-history)
+* [Developers](#developers)
 
-* [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
-* [Developer Guide](#developer-guide)
-* [Development History](#development-history)
-* [Walkthrough videos](#walkthrough-videos)
+## Overview
 
-## Welcome to Ono On-The-Way
-
-Ono On-The-Way is a web application that UH Manoa students can use when they do not want interrupt their work to go out for on-campus food. Students are able to register with the site as either a deliverer or a buyer. Buyers can request for food, and deliverers can fulfill the orders.
+Ono On-The-Way is a web application that UH Manoa students can use when they do not want interrupt their work to go out for on-campus food. Students are able to register with the site as either a deliverer or a buyer. Buyers can request for food, and deliverers can fulfill the orders. The application is built using:
+- [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
+- [React](https://reactjs.org/) for component-based UI implementation and routing.
+- [Semantic UI React](https://react.semantic-ui.com/) CSS Framework for UI design.
+- [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
 
 ### Goals 
 
@@ -20,18 +22,19 @@ Our goals for Ono On-The-Way is:
 
 ## Project Development History
 Running deployment on Galaxy: [OOTW](http://ono-otw.meteorapp.com/)
+
 To track our progress via Milestones:
 - [Milestone 1](https://github.com/orgs/ono-otw/projects/1)
 - [Milestone 2](https://github.com/orgs/ono-otw/projects/2)
 
 
-### Milestone 1: Mockup development
+### Milestone 1: Mockup and Deployment
 - Implemented landing page
 - Created Ono-on the way logo
 - Created various mock ups 
 - Deployed to Galaxy
 
-<img src=/Images/M1_Done.png">
+<img src="/Images/M1_Done.png">
 
 #### Landing Page
 
@@ -41,10 +44,9 @@ You can find our landing page [here](http://ono-otw.meteorapp.com/).
 <img src="/Images/ono otw_landing.jpg">
 
 #### Sign up and sign in (Mock up)
-
 This is where students can sign in or sign up.
-<img src="/Images/Register-Mock%20Up.png">
 
+<img src="/Images/Register-Mock%20Up.png">
 <img src="/Images/Signin-Mock%20Up.png">
 
 ####  Profile Page (Mock up)
@@ -69,17 +71,22 @@ This is the admin page where admins and/or moderators can approve restaurants to
 
 
 ### Milestone 2: Data model development
+The goal of Milestone 2 is to integrate other pages of the application such as ability for the customer to order and a deliver to accept the order. This involves the implemetation of our data model, which will include multiple schemas to ensure the data entered is is valid. 
 
+The progress on these tasks can be seen [here](https://github.com/orgs/ono-otw/projects/2).
 
 
 ### Milestone 3: Final touches
 
 
 
-## Example enhancements
+## Extra enhancements
+After implementing the basic functionality, some additional features may include:
+- Expanding to not just food (eg. Art supplies from UH Manoa Bookstore)
+- Expansion to mobile application 
+- Login using UH Central Authentication Service to ensure that all users who sign in are UH Students
 
-
-## Contributors 
+## Developers
 Here are the people who worked on this project:
 
 Andre Ruiz: Find his Github <a href = "https://ruizaj.github.io/">here.</a> 
