@@ -35,6 +35,9 @@ This section provides a walkthrough of the ono-otw.
 <img src="/Images/Signin-Mock%20Up.png">
 
 
+### Profile Page
+<img src="/Images/Profile-Mockup.png">
+
 ### Home page
 
 
