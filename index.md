@@ -29,8 +29,12 @@ This section provides a walkthrough of the ono-otw.
 
 
 
-### Sign in and sign up
+### Sign up and sign in
+Sign up page for new users:
+<img src="/Images/Register-Mock%20Up.png">
 
+Sign in page for returning users:
+<img src="/Images/Signin-Mock%20Up.png">
 
 
 ### Home page
