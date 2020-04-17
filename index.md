@@ -17,79 +17,56 @@ Our goals for Ono On-The-Way is:
 - Provide a facet for food to be delivered at a specific location on campus.
 - Allows deliverers a list of orders to choose from, depending on location.
 
-## User Guide
 
-This section provides a walkthrough of the ono-otw.
-
-### Landing Page
-
-
-
-### Index pages (Projects, Profiles, Interests)
+## Project Development History
+Running deployment on Galaxy: [OOTW](http://ono-otw.meteorapp.com/)
+To track our progress via Milestones:
+- [Milestone 1](https://github.com/orgs/ono-otw/projects/1)
+- [Milestone 2](https://github.com/orgs/ono-otw/projects/2)
 
 
+### Milestone 1: Mockup development
+- Implemented landing page
+- Created Ono-on the way logo
+- Created various mock ups 
+- Deployed to Galaxy
 
-### Sign up and sign in
+<img src=/Images/M1_Done.png">
+
+#### Landing Page
+
+This is the first page that students see upon visiting the site.
+
+You can find our landing page [here](http://ono-otw.meteorapp.com/).
+<img src="/Images/ono otw_landing.jpg">
+
+#### Sign up and sign in (Mock up)
+
+This is where students can sign in or sign up.
 <img src="/Images/Register-Mock%20Up.png">
 
 <img src="/Images/Signin-Mock%20Up.png">
 
-### Profile Page
+####  Profile Page (Mock up)
+This where you can see the profile of the deliverier or customer. A rating system will be implemented. 
 <img src="/Images/Profile-Mockup.png">
 
-### Restaurants Page
+####  Restaurants Page (Mock up)
+This where you can see the list of current restaurants to order from. 
 <img src="/Images/Restaurants-Mockup.png">
 
-### Menu Page
+####  Menu Page (Mock up)
+This is how the menu will look like. Starbucks was used as an example but all other restaurants will follow a similar layout.
 <img src="/Images/Menu-Mockup.png">
 
-### Cart Page 
+####  Cart Page (Mock up) 
+This is how the cart page will look like upon checking out.
 <img src="/Images/Cart-Mockup.png">
 
-### Filter page
+#### Admin Page (Mock up)
+This is the admin page where admins and/or moderators can approve restaurants to be added to the list. 
+<img src="/Images/ono otw_admin.jpg">
 
-
-## Community Feedback
-
-
-## Developer Guide
-
-
-
-### Installation
-
-
-### Application Design
-
-
-
-### Data model
-
-
-
-## Initialization
-
-
-## Quality Assurance
-
-### ESLint
-
-
-
-### From mockup to production
-
-
-
-## Development History
-
-
-
-### Milestone 1: Mockup development
-Landing page for those that are not logged in.
-<img src="/Images/Landing-Mock%20Up.png">
-
-Landing page for logged in users.
-<img src="/Images/Landing-Signed-inMock%20Up.png">
 
 ### Milestone 2: Data model development
 
