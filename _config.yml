@@ -1,1 +1,12 @@
+title: ONO ON THE WAY
+description: 
+google_analytics:
+show_downloads: false
 theme: jekyll-theme-architect
+github:
+  is_project_page: true
+  repository_url: https://github.com/ono-otw/ono-otw.github.io
+social:
+  type: Delivery
+gems:
+  - jekyll-mentions
