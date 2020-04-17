@@ -34,16 +34,17 @@ This section provides a walkthrough of the ono-otw.
 
 <img src="/Images/Signin-Mock%20Up.png">
 
-
 ### Profile Page
 <img src="/Images/Profile-Mockup.png">
 
-### Home page
+### Restaurants Page
+<img src="/Images/Restaurants-Mockup.png">
 
+### Menu Page
+<img src="/Images/Menu-Mockup.png">
 
-### Add Project page
-
-
+### Cart Page 
+<img src="/Images/Cart-Mockup.png">
 
 ### Filter page
 
