@@ -24,8 +24,8 @@ Our goals for Ono On-The-Way is:
 Running deployment on Galaxy: [OOTW](http://ono-otw.meteorapp.com/)
 
 To track our progress via Milestones:
-- [Milestone 1](https://github.com/orgs/ono-otw/projects/1)
-- [Milestone 2](https://github.com/orgs/ono-otw/projects/2)
+- [Milestone 1](https://github.com/ono-otw/ono-otw/projects/3)
+- [Milestone 2](https://github.com/ono-otw/ono-otw/projects/2)
 
 
 ### Milestone 1: Mockup and Deployment
@@ -73,7 +73,7 @@ This is the admin page where admins and/or moderators can approve restaurants to
 ### Milestone 2: Data model development
 The goal of Milestone 2 is to integrate other pages of the application such as ability for the customer to order and a deliver to accept the order. This involves the implemetation of our data model, which will include multiple schemas to ensure the data entered is is valid. 
 
-The progress on these tasks can be seen [here](https://github.com/orgs/ono-otw/projects/2).
+The progress on these tasks can be seen [here](https://github.com/ono-otw/ono-otw/projects/2).
 
 
 ### Milestone 3: Final touches
