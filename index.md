@@ -1,6 +1,8 @@
 ## Table of contents
 * [Overview](#overview)
 * [Goals](#goals)
+* [User Guide](#user-guide)
+* [Developer Guide](#developer-guide)
 * [Development History](#project-development-history)
 * [Developers](#developers)
 
@@ -72,6 +74,53 @@ Running deployment on Galaxy: [OOTW](http://ono-otw.meteorapp.com/)
 To track our progress via Milestones:
 - [Milestone 1](https://github.com/ono-otw/ono-otw/projects/3)
 - [Milestone 2](https://github.com/ono-otw/ono-otw/projects/2)
+- [Milestone 3](https://github.com/ono-otw/ono-otw/projects/4)
+
+### Developer Guide
+1. Install meteor
+2. Download a copy of ono-otw. You can download either using Github Desktop (recommended) or by extracting the .zip. 
+3. cd into the /app directory and install the required libraries with:
+ `meteor npm install `
+4. Once the libraries are installed, the application can be ran by using: `meteor npm run start`
+ 
+ Upon running the app the first time, it will create some default users and data. Here is the output. 
+   ````
+    W20200406-18:15:16.881(-10)? (STDERR) Note: you are using a pure-JavaScript implementation of
+ bcrypt.
+    W20200406-18:15:16.954(-10)? (STDERR) While this implementation will work correctly, it is known to be
+    W20200406-18:15:16.955(-10)? (STDERR) approximately three times slower than the native implementation.
+    W20200406-18:15:16.956(-10)? (STDERR) In order to use the native implementation instead, run
+    W20200406-18:15:16.958(-10)? (STDERR)
+    W20200406-18:15:16.958(-10)? (STDERR)   meteor npm install --save bcrypt
+    W20200406-18:15:16.959(-10)? (STDERR)
+    W20200406-18:15:16.961(-10)? (STDERR) in the root directory of your application.
+    I20200406-18:15:17.241(-10)? Creating the default user(s)
+    I20200406-18:15:17.243(-10)?   Creating user admin@foo.com.
+    I20200406-18:15:17.559(-10)?   Creating user john@foo.com.
+    I20200406-18:15:17.840(-10)? Creating default contacts.
+    I20200406-18:15:17.842(-10)?   Adding: Johnson (admin@foo.com)
+    I20200406-18:15:17.860(-10)?   Adding: Casanova (john@foo.com) 
+    I20200406-18:15:17.864(-10)?   Adding: Binsted (john@foo.com)
+  ````
+_Note:_ You can modify the default users in `/config/settings.development.json`. To modify default restaurants and menu items, you can go to `app/private` directory and select the edit the respective .json files (eg. defaultRestaruants, defaultMenu, etc...)
+
+**Note regarding bycript warning.** Upon running the application, you may stumble across this error:
+````
+Note: you are using a pure-JavaScript implementation of bcrypt.
+While this implementation will work correctly, it is known to be
+approximately three times slower than the native implementation.
+In order to use the native implementation instead, run
+
+  meteor npm install --save bcrypt
+
+in the root directory of your application.
+````
+
+Some operating systems, especially Windows has trouble installing bcrypt. It is only used in Meteor for password checking. During initial stages of development and mock-up, you can safely ignore this message.
+  
+Head on over to `http://localhost:3000` to see the application. 
+ 
+To adhere to common coding standards, you an evoke the command `meteor npm run lint` to run ESLint.
 
 
 ### Milestone 1: Mockup and Deployment
