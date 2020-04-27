@@ -12,12 +12,51 @@ Ono On-The-Way is a web application that UH Manoa students can use when they do 
 - [Semantic UI React](https://react.semantic-ui.com/) CSS Framework for UI design.
 - [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
 
-### Goals 
+## Goals 
 
 Our goals for Ono On-The-Way is:
 - To provide a directory of restaurants and vendors in or around the vicinity of the UH campus.
 - Provide a facet for food to be delivered at a specific location on campus.
 - Allows deliverers a list of orders to choose from, depending on location.
+
+## User Guide
+This section provides a walkthrough of our interface and its current capabilities. The screenshots show the current state of the project.
+
+#### Landing Page
+
+This is the first page that students see upon visiting the site.
+
+You can find our landing page [here](http://ono-otw.meteorapp.com/).
+<img src="/Images/ono otw_landing.jpg">
+
+#### Sign up and sign in
+This is where students can sign in or sign up.
+
+<img src="/Images/Register-Mock%20Up.png">
+<img src="/Images/Signin-Mock%20Up.png">
+
+####  Profile Page
+This where you can see the profile of the deliverier or customer. A rating system will be implemented. 
+<img src="/Images/Profile-Mockup.gif">
+
+####  Restaurants Page 
+This where you can see the list of current restaurants to order from. 
+<img src="/Images/Restaurants-Mockup.png">
+
+####  Menu Page 
+This is how the menu will look like. Starbucks was used as an example but all other restaurants will follow a similar layout.
+<img src="/Images/Menu-Mockup.png">
+
+Upon clicking the menu item, this box will pop up which allows you to customize your order. 
+<img src="/Images/Menu-Mockup-2.png">
+
+####  Cart Page 
+This is how the cart page will look like upon checking out.
+<img src="/Images/Cart-Mockup.png">
+
+#### Admin Page 
+This is the admin page where admins and/or moderators can approve restaurants to be added to the list. 
+<img src="/Images/ono otw_admin.jpg">
 
 
 ## Project Development History
@@ -36,39 +75,7 @@ To track our progress via Milestones:
 
 <img src="/Images/M1_Done.png">
 
-#### Landing Page
-
-This is the first page that students see upon visiting the site.
-
-You can find our landing page [here](http://ono-otw.meteorapp.com/).
-<img src="/Images/ono otw_landing.jpg">
-
-#### Sign up and sign in (Mock up)
-This is where students can sign in or sign up.
-
-<img src="/Images/Register-Mock%20Up.png">
-<img src="/Images/Signin-Mock%20Up.png">
-
-####  Profile Page (Mock up)
-This where you can see the profile of the deliverier or customer. A rating system will be implemented. 
-<img src="/Images/Profile-Mockup.png">
-
-####  Restaurants Page (Mock up)
-This where you can see the list of current restaurants to order from. 
-<img src="/Images/Restaurants-Mockup.png">
-
-####  Menu Page (Mock up)
-This is how the menu will look like. Starbucks was used as an example but all other restaurants will follow a similar layout.
-<img src="/Images/Menu-Mockup.png">
-
-####  Cart Page (Mock up) 
-This is how the cart page will look like upon checking out.
-<img src="/Images/Cart-Mockup.png">
-
-#### Admin Page (Mock up)
-This is the admin page where admins and/or moderators can approve restaurants to be added to the list. 
-<img src="/Images/ono otw_admin.jpg">
-
+**To see which issues have been finished during M1, please click: [Milestone 1](https://github.com/ono-otw/ono-otw/projects/3)**
 
 ### Milestone 2: Data model development
 The goal of Milestone 2 is to integrate other pages of the application such as ability for the customer to order and a deliver to accept the order. This involves the implemetation of our data model, which will include multiple schemas to ensure the data entered is is valid. 
