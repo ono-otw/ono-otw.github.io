@@ -24,31 +24,31 @@ Our goals for Ono On-The-Way is:
 ## User Guide
 This section provides a walkthrough of our interface and its current capabilities. The screenshots show the current state of the project. Capabilities not yet implemented are either noted with the screenshot or denoted by the words "Mock Up" by the title. 
 
-#### Landing Page
+### Landing Page
 
 This is the first page that students see upon visiting the site.
 
 You can find our landing page [here](http://ono-otw.meteorapp.com/).
 <img src="/Images/ono otw_landing.jpg">
 
-#### Sign up and sign in
+### Sign up and sign in
 This is where students can sign in or sign up.
 
 <img src="/Images/Register-Mock%20Up.png">
 <img src="/Images/Signin-Mock%20Up.png">
 
-####  Profile Page
+###  Profile Page
 This where you can see the profile of the deliverer or customer. A functional rating system is yet to be implemented. 
 <img src="/Images/Profile-Mockup.gif">
 
 You can edit your profile below. Your venmo will only be shown upon delivery/ordering to the customer/deliver.
 <img src="/Images/Edit-Profile.png">
 
-####  Restaurants Page 
+###  Restaurants Page 
 This where you can see the list of current restaurants to order from. A functional favorite system is yet to be implemented. 
 <img src="/Images/Restaurants-Mockup.png">
 
-####  Menu Page 
+###  Menu Page 
 This is how the menu will look like. Starbucks was used as an example but all other restaurants will follow a similar layout.
 <img src="/Images/Menu-Mockup.png">
 
@@ -56,11 +56,11 @@ Upon clicking the menu item, this box will pop up which allows you to customize 
 *Note: At the moment the ability to add to the cart and customize the order is yet to be implemented.*
 <img src="/Images/Menu-Mockup-2.png">
 
-####  Cart Page (Mock-Up)
+###  Cart Page (Mock-Up)
 This is how the cart page will look like upon checking out.
 <img src="/Images/Cart-Mockup.png">
 
-#### Admin Page 
+### Admin Page 
 This is the admin page where admins and/or moderators can approve restaurants to be added to the list. 
 <img src="/Images/ono otw_admin.png">
 
