@@ -68,14 +68,6 @@ This is the admin page where admins and/or moderators can approve restaurants to
 Allows you to track your order and communicate with the deliverer.
 <img src="/Images/tracking.png">
 
-## Project Development History
-Running deployment on Galaxy: [OOTW](http://ono-otw.meteorapp.com/)
-
-To track our progress via Milestones:
-- [Milestone 1](https://github.com/ono-otw/ono-otw/projects/3)
-- [Milestone 2](https://github.com/ono-otw/ono-otw/projects/2)
-- [Milestone 3](https://github.com/ono-otw/ono-otw/projects/4)
-
 ### Developer Guide
 1. Install meteor
 2. Download a copy of ono-otw. You can download either using Github Desktop (recommended) or by extracting the .zip. 
@@ -121,6 +113,14 @@ Some operating systems, especially Windows has trouble installing bcrypt. It is 
 Head on over to `http://localhost:3000` to see the application. 
  
 To adhere to common coding standards, you an evoke the command `meteor npm run lint` to run ESLint.
+
+## Project Development History
+Running deployment on Galaxy: [OOTW](http://ono-otw.meteorapp.com/)
+
+To track our progress via Milestones:
+- [Milestone 1](https://github.com/ono-otw/ono-otw/projects/3)
+- [Milestone 2](https://github.com/ono-otw/ono-otw/projects/2)
+- [Milestone 3](https://github.com/ono-otw/ono-otw/projects/4)
 
 
 ### Milestone 1: Mockup and Deployment
