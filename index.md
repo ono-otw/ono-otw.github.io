@@ -56,12 +56,19 @@ Upon clicking the menu item, this box will pop up which allows you to customize 
 *Note: At the moment the ability to add to the cart and customize the order is yet to be implemented.*
 <img src="/Images/Menu-Mockup-2.png">
 
-###  Cart Page (Mock-Up)
+###  Cart Page 
 This is how the cart page will look like upon checking out.
-<img src="/Images/Cart-Mockup.png">
+<img src="/Images/Cart.png">
+
+If your cart is empty, this shows:
+<img src="/Images/Cart-empty.png">
+
+###  Accept Order 
+Students who are looking for orders to accept can accept them here. At the moment, each item is rendered individually, but future implementation will have it so if a student orders more than one menu item, they will render on one card. 
+<img src="/Images/Accept-Order.png">
 
 ### Admin Page 
-This is the admin page where admins and/or moderators can approve restaurants to be added to the list. 
+This is the admin page where admins and/or moderators can approve restaurants to be added to the list. Restaurants can also be deleted if necessary. 
 <img src="/Images/ono otw_admin.png">
 
 ### Tracking (Mock-Up)
@@ -77,22 +84,41 @@ Allows you to track your order and communicate with the deliverer.
  
  Upon running the app the first time, it will create some default users and data. Here is the output. 
    ````
-    W20200406-18:15:16.881(-10)? (STDERR) Note: you are using a pure-JavaScript implementation of
- bcrypt.
-    W20200406-18:15:16.954(-10)? (STDERR) While this implementation will work correctly, it is known to be
-    W20200406-18:15:16.955(-10)? (STDERR) approximately three times slower than the native implementation.
-    W20200406-18:15:16.956(-10)? (STDERR) In order to use the native implementation instead, run
-    W20200406-18:15:16.958(-10)? (STDERR)
-    W20200406-18:15:16.958(-10)? (STDERR)   meteor npm install --save bcrypt
-    W20200406-18:15:16.959(-10)? (STDERR)
-    W20200406-18:15:16.961(-10)? (STDERR) in the root directory of your application.
-    I20200406-18:15:17.241(-10)? Creating the default user(s)
-    I20200406-18:15:17.243(-10)?   Creating user admin@foo.com.
-    I20200406-18:15:17.559(-10)?   Creating user john@foo.com.
-    I20200406-18:15:17.840(-10)? Creating default contacts.
-    I20200406-18:15:17.842(-10)?   Adding: Johnson (admin@foo.com)
-    I20200406-18:15:17.860(-10)?   Adding: Casanova (john@foo.com) 
-    I20200406-18:15:17.864(-10)?   Adding: Binsted (john@foo.com)
+W20200429-02:13:11.687(-10)? (STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
+W20200429-02:13:11.860(-10)? (STDERR) While this implementation will work correctly, it is known to be
+W20200429-02:13:11.861(-10)? (STDERR) approximately three times slower than the native implementation.
+W20200429-02:13:11.861(-10)? (STDERR) In order to use the native implementation instead, run
+W20200429-02:13:11.862(-10)? (STDERR)
+W20200429-02:13:11.863(-10)? (STDERR)   meteor npm install --save bcrypt
+W20200429-02:13:11.864(-10)? (STDERR)
+W20200429-02:13:11.865(-10)? (STDERR) in the root directory of your application.
+I20200429-02:13:12.505(-10)? Creating the default user(s)
+I20200429-02:13:12.508(-10)?   Creating user admin@foo.com.
+I20200429-02:13:12.947(-10)?   Creating user john@foo.com.
+I20200429-02:13:13.411(-10)? Creating default data.
+I20200429-02:13:13.414(-10)?   Adding: Basket (john@foo.com)
+I20200429-02:13:13.448(-10)?   Adding: Bicycle (john@foo.com)
+I20200429-02:13:13.455(-10)?   Adding: Banana (admin@foo.com)
+I20200429-02:13:13.462(-10)?   Adding: Boogie Board (admin@foo.com)
+I20200429-02:13:13.473(-10)? Creating testing cart data.
+I20200429-02:13:13.473(-10)?   Adding: Milk Tea (john@foo.com)
+I20200429-02:13:13.494(-10)?   Adding: Mocha Frappe (john@foo.com)
+I20200429-02:13:13.502(-10)?   Adding: Milk Tea Super (admin@foo.com)
+I20200429-02:13:13.509(-10)?   Adding: Lala Coffeee (admin@foo.com)
+I20200429-02:13:13.514(-10)?   Adding: Milk Tea (test@foo.com)
+I20200429-02:13:13.520(-10)?   Adding: Milk Tea (mocha@foo.com)
+I20200429-02:13:13.531(-10)?   Adding: Milk Tea (hello@foo.com)
+I20200429-02:13:13.541(-10)?   Adding: Profile Admin for (admin@foo.com)
+I20200429-02:13:13.560(-10)?   Adding: Profile John for (john@foo.com)
+I20200429-02:13:13.569(-10)?  Adding: Restaurant listing: Starbucks for starbucks@foo.com
+I20200429-02:13:13.591(-10)?  Adding: Restaurant listing: Raising Canes for raisingcanes@foo.com
+I20200429-02:13:13.597(-10)?  Adding: Restaurant listing: Bale for bale@foo.com
+I20200429-02:13:13.605(-10)?  Adding: Restaurant listing: Jersey Mikes for jerseymikes@foo.com
+I20200429-02:13:13.612(-10)?  Adding: Restaurant listing: Pieology for pieology@foo.com
+I20200429-02:13:13.618(-10)?  Adding: Restaurant listing: Subway for subway@foo.com
+I20200429-02:13:13.629(-10)?  Adding: Pending orders: Bread for admin@foo.com
+I20200429-02:13:13.650(-10)?  Adding: Pending orders: Coffee for admin@foo.com
+I20200429-02:13:13.656(-10)?  Adding: Pending orders: Chicken for john@foo.com
   ````
 _Note:_ You can modify the default users in `/config/settings.development.json`. To modify default restaurants and menu items, you can go to `app/private` directory and select the edit the respective .json files (eg. defaultRestaruants, defaultMenu, etc...)
 
@@ -135,8 +161,20 @@ To track our progress via Milestones:
 
 ### Milestone 2: Data model development
 The goal of Milestone 2 is to integrate other pages of the application such as ability for the customer to order and a deliver to accept the order. This involves the implemetation of our data model, which will include multiple schemas to ensure the data entered is is valid. 
+- Implemented database for:
+   - Profiles
+   - Cart 
+   - PendingOrders
+   - Restaurants
+- Added functionality: 
+   - Edit Profile
+   - Submitting your order sends it to the "Accept Order" page
+   - Ability for Admin to delete restaurants
+- Created layout for menu
 
-The progress on these tasks can be seen [here](https://github.com/ono-otw/ono-otw/projects/2).
+<img src="/Images/M2_Done.png">
+
+**To see which issues have been finished during M2, please click [here](https://github.com/ono-otw/ono-otw/projects/2).**
 
 
 ### Milestone 3: Final touches
