@@ -178,7 +178,9 @@ The goal of Milestone 2 is to integrate other pages of the application such as a
 
 
 ### Milestone 3: Final touches
+The goal of Milestone 3 is to finish and finalize the fuctionality for students to accept/deliver food, and polish other aspects such as searching by category. If time permits, some extra enhancements would include the ability to see past/recent orders and/or deliveries, as well as a user's favorite place to eat. 
 
+**To see our current progress for M3, please click [here](https://github.com/ono-otw/ono-otw/projects/4)**
 
 
 ## Extra enhancements
