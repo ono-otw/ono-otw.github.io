@@ -39,23 +39,29 @@ This is where students can sign in or sign up.
 <img src="/Images/Signin-Mock%20Up.png">
 
 ###  Profile Page
-This where you can see the profile of the deliverer or customer. A functional rating system is yet to be implemented. 
+This where you can see the profile of the deliverer or customer. It shows the user's favorites, and past orders/delivery. A functional rating system is yet to be implemented. 
 <img src="/Images/Profile-Mockup.gif">
 
 You can edit your profile below. Your venmo will only be shown upon delivery/ordering to the customer/deliver.
 <img src="/Images/Edit-Profile.png">
 
 ###  Restaurants Page 
-This where you can see the list of current restaurants to order from. A functional favorite system is yet to be implemented. 
-<img src="/Images/Restaurants-Mockup.png">
+This where you can see the list of current restaurants to order from. As shown below, you can favorite a restaurant and search for it by name. Upon clicking the result, it redirects you to its respective menu items.
+<img src="/Images/RestaurantsGif.gif">
 
 ###  Menu Page 
-This is how the menu will look like. Starbucks was used as an example but all other restaurants will follow a similar layout.
+This is how the menu will look like. Panda Express was used as an example but all other restaurants will follow a similar layout. You can filter through the food categories by clicking its respective tabs.
 <img src="/Images/Menu-Mockup.png">
 
 Upon clicking the menu item, this box will pop up which allows you to customize your order. 
-*Note: At the moment the ability to add to the cart and customize the order is yet to be implemented.*
 <img src="/Images/Menu-Mockup-2.png">
+
+The "Cart" button at the bottom brings up your current cart. 
+<img src="/Images/Menu-Mockup-3.png">
+
+Below is a gif that shows the capabilites listed above:
+<img src="/Images/Menu-Mockup-gif.gif">
+
 
 ###  Cart Page 
 This is how the cart page will look like upon checking out.
@@ -65,12 +71,23 @@ If your cart is empty, this shows:
 <img src="/Images/Cart-empty.png">
 
 ###  Accept Order 
-Students who are looking for orders to accept can accept them here. At the moment, each item is rendered individually, but future implementation will have it so if a student orders more than one menu item, they will render on one card. 
+Students who are looking for orders to accept can accept them here.
 <img src="/Images/Accept-Order.png">
+
+### Deliver Order
+Upon accepting the order, students are provided with more information about it such the total cost and the customer's venmo:
+<img src="/Images/Deliver-Order.png">
+
+If they haven't accepted any orders yet, this shows:
+<img src="/Images/Deliver-Order-2.png">
+
 
 ### Admin Page 
 This is the admin page where admins and/or moderators can approve restaurants to be added to the list. Restaurants can also be deleted if necessary. 
 <img src="/Images/ono otw_admin.png">
+
+Admins are also able to add a restaurant:
+<img src="/Images/Add-Restaurant.png">
 
 ### Tracking (Mock-Up)
 Allows you to track your order and communicate with the deliverer.
