@@ -74,6 +74,9 @@ If your cart is empty, this shows:
 Students who are looking for orders to accept can accept them here.
 <img src="/Images/Accept-Order.png">
 
+If there are no pending orders, this displays:
+<img src="/Images/Accept-Order-2.png">
+
 ### Deliver Order
 Upon accepting the order, students are provided with more information about it such the total cost and the customer's venmo:
 <img src="/Images/Deliver-Order.png">
