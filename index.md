@@ -89,6 +89,12 @@ If they haven't accepted any orders yet, this shows:
 This is the admin page where admins and/or moderators can approve restaurants to be added to the list. Restaurants can also be deleted if necessary. 
 <img src="/Images/ono otw_admin.png">
 
+Clicking the "view" button brings up a preview of the restaurant:
+<img src="/Images/ono otw_admin-1.png">
+
+Admins and/or moderators are also allowed to edit restaurant fields:
+<img src="/Images/ono otw_admin-2.png">
+
 Admins are also able to add a restaurant:
 <img src="/Images/Add-Restaurant.png">
 
@@ -105,41 +111,97 @@ Allows you to track your order and communicate with the deliverer.
  
  Upon running the app the first time, it will create some default users and data. Here is the output. 
    ````
-W20200429-02:13:11.687(-10)? (STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
-W20200429-02:13:11.860(-10)? (STDERR) While this implementation will work correctly, it is known to be
-W20200429-02:13:11.861(-10)? (STDERR) approximately three times slower than the native implementation.
-W20200429-02:13:11.861(-10)? (STDERR) In order to use the native implementation instead, run
-W20200429-02:13:11.862(-10)? (STDERR)
-W20200429-02:13:11.863(-10)? (STDERR)   meteor npm install --save bcrypt
-W20200429-02:13:11.864(-10)? (STDERR)
-W20200429-02:13:11.865(-10)? (STDERR) in the root directory of your application.
-I20200429-02:13:12.505(-10)? Creating the default user(s)
-I20200429-02:13:12.508(-10)?   Creating user admin@foo.com.
-I20200429-02:13:12.947(-10)?   Creating user john@foo.com.
-I20200429-02:13:13.411(-10)? Creating default data.
-I20200429-02:13:13.414(-10)?   Adding: Basket (john@foo.com)
-I20200429-02:13:13.448(-10)?   Adding: Bicycle (john@foo.com)
-I20200429-02:13:13.455(-10)?   Adding: Banana (admin@foo.com)
-I20200429-02:13:13.462(-10)?   Adding: Boogie Board (admin@foo.com)
-I20200429-02:13:13.473(-10)? Creating testing cart data.
-I20200429-02:13:13.473(-10)?   Adding: Milk Tea (john@foo.com)
-I20200429-02:13:13.494(-10)?   Adding: Mocha Frappe (john@foo.com)
-I20200429-02:13:13.502(-10)?   Adding: Milk Tea Super (admin@foo.com)
-I20200429-02:13:13.509(-10)?   Adding: Lala Coffeee (admin@foo.com)
-I20200429-02:13:13.514(-10)?   Adding: Milk Tea (test@foo.com)
-I20200429-02:13:13.520(-10)?   Adding: Milk Tea (mocha@foo.com)
-I20200429-02:13:13.531(-10)?   Adding: Milk Tea (hello@foo.com)
-I20200429-02:13:13.541(-10)?   Adding: Profile Admin for (admin@foo.com)
-I20200429-02:13:13.560(-10)?   Adding: Profile John for (john@foo.com)
-I20200429-02:13:13.569(-10)?  Adding: Restaurant listing: Starbucks for starbucks@foo.com
-I20200429-02:13:13.591(-10)?  Adding: Restaurant listing: Raising Canes for raisingcanes@foo.com
-I20200429-02:13:13.597(-10)?  Adding: Restaurant listing: Bale for bale@foo.com
-I20200429-02:13:13.605(-10)?  Adding: Restaurant listing: Jersey Mikes for jerseymikes@foo.com
-I20200429-02:13:13.612(-10)?  Adding: Restaurant listing: Pieology for pieology@foo.com
-I20200429-02:13:13.618(-10)?  Adding: Restaurant listing: Subway for subway@foo.com
-I20200429-02:13:13.629(-10)?  Adding: Pending orders: Bread for admin@foo.com
-I20200429-02:13:13.650(-10)?  Adding: Pending orders: Coffee for admin@foo.com
-I20200429-02:13:13.656(-10)?  Adding: Pending orders: Chicken for john@foo.com
+W20200512-19:30:40.756(-10)? (STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
+W20200512-19:30:41.196(-10)? (STDERR) While this implementation will work correctly, it is known to be
+W20200512-19:30:41.198(-10)? (STDERR) approximately three times slower than the native implementation.
+W20200512-19:30:41.200(-10)? (STDERR) In order to use the native implementation instead, run
+W20200512-19:30:41.206(-10)? (STDERR)
+W20200512-19:30:41.213(-10)? (STDERR)   meteor npm install --save bcrypt
+W20200512-19:30:41.223(-10)? (STDERR)
+W20200512-19:30:41.225(-10)? (STDERR) in the root directory of your application.
+I20200512-19:30:42.337(-10)? Creating the default user(s)
+I20200512-19:30:42.339(-10)?   Creating user admin@foo.com.
+I20200512-19:30:42.342(-10)?   Creating user john@foo.com.
+I20200512-19:30:42.551(-10)? Creating testing cart data.
+I20200512-19:30:42.554(-10)?   Adding: Milk Tea (john@foo.com)
+I20200512-19:30:42.556(-10)?   Adding: Mocha Frappe (john@foo.com)
+I20200512-19:30:42.558(-10)?   Adding: Mocha Frappe (admin@foo.com)
+I20200512-19:30:42.559(-10)?   Adding: Earl Grey Tea (admin@foo.com)
+I20200512-19:30:42.593(-10)?   Adding: Milk Tea (test@foo.com)
+I20200512-19:30:42.596(-10)?   Adding: Milk Tea (mocha@foo.com)
+I20200512-19:30:42.597(-10)?   Adding: Milk Tea (hello@foo.com)
+I20200512-19:30:42.598(-10)? Creating default profile data.
+I20200512-19:30:42.599(-10)?   Adding: Profile Admin for (admin@foo.com)
+I20200512-19:30:42.600(-10)?   Adding: Profile John for (john@foo.com)
+I20200512-19:30:42.604(-10)? Creating default restaruant data.
+I20200512-19:30:42.606(-10)?  Adding: Restaurant listing: Starbucks for starbucks@foo.com
+I20200512-19:30:42.607(-10)?  Adding: Restaurant listing: Raising Canes for raisingcanes@foo.com
+I20200512-19:30:42.608(-10)?  Adding: Restaurant listing: Bale for bale@foo.com
+I20200512-19:30:42.609(-10)?  Adding: Restaurant listing: Jersey Mikes for jerseymikes@foo.com
+I20200512-19:30:42.610(-10)?  Adding: Restaurant listing: Jamba Juice for jambajuice@foo.com
+I20200512-19:30:42.715(-10)?  Adding: Restaurant listing: Panda Express for pandaexpress@foo.com
+I20200512-19:30:42.718(-10)?  Adding: Restaurant listing: Dunkin Donuts for dunkindonuts@foo.com
+I20200512-19:30:42.720(-10)?  Adding: Restaurant listing: Shaka Shaka for shakashaka@foo.com
+I20200512-19:30:42.721(-10)?  Adding: Restaurant listing: Subway for subway@foo.com
+I20200512-19:30:42.736(-10)?  Adding: Pending orders: Bread,Earl Grey Tea for admin@foo.com
+I20200512-19:30:42.738(-10)?  Adding: Pending orders: Chicken for john@foo.com
+I20200512-19:30:42.739(-10)?  Adding Menu Item: White Mocha for starbucks@foo.com
+I20200512-19:30:42.786(-10)?  Adding Menu Item: Flat White for starbucks@foo.com
+I20200512-19:30:42.788(-10)?  Adding Menu Item: Americano for starbucks@foo.com
+I20200512-19:30:42.789(-10)?  Adding Menu Item: Cappuccino for starbucks@foo.com
+I20200512-19:30:42.790(-10)?  Adding Menu Item: Earl Grey Tea for starbucks@foo.com
+I20200512-19:30:42.791(-10)?  Adding Menu Item: Matcha Green Tea Latte for starbucks@foo.com
+I20200512-19:30:42.793(-10)?  Adding Menu Item: Chicken Fingers for raisingcanes@foo.com
+I20200512-19:30:42.794(-10)?  Adding Menu Item: Pho for bale@foo.com
+I20200512-19:30:42.797(-10)?  Adding Menu Item: Char Siu Fried Rice for bale@foo.com
+I20200512-19:30:42.799(-10)?  Adding Menu Item: Jersey Shore's Favorite for jerseymikes@foo.com
+I20200512-19:30:42.801(-10)?  Adding Menu Item: Mike's Famous Philly for jerseymikes@foo.com
+I20200512-19:30:42.909(-10)?  Adding Menu Item: BBQ Beef for jerseymikes@foo.com
+I20200512-19:30:42.920(-10)?  Adding Menu Item: Jersey Shore's Favorite for jerseymikes@foo.com
+I20200512-19:30:42.922(-10)?  Adding Menu Item: Club Supreme for jerseymikes@foo.com
+I20200512-19:30:42.924(-10)?  Adding Menu Item: Turkey and Provolone for jerseymikes@foo.com
+I20200512-19:30:42.926(-10)?  Adding Menu Item: Brownie for jerseymikes@foo.com
+I20200512-19:30:42.928(-10)?  Adding Menu Item: Cookie for jerseymikes@foo.com
+I20200512-19:30:42.929(-10)?  Adding Menu Item: Giant Drink and Chips for jerseymikes@foo.com
+I20200512-19:30:42.932(-10)?  Adding Menu Item: Pureleaf Tea & Chips for jerseymikes@foo.com
+I20200512-19:30:42.934(-10)?  Adding Menu Item: Avocado Smoothie for shakashaka@foo.com
+I20200512-19:30:42.936(-10)?  Adding Menu Item: Banana Smoothie for shakashaka@foo.com
+I20200512-19:30:42.938(-10)?  Adding Menu Item: Grape Smoothie for shakashaka@foo.com
+I20200512-19:30:42.939(-10)?  Adding Menu Item: Green Tea for shakashaka@foo.com
+I20200512-19:30:42.943(-10)?  Adding Menu Item: Black Lemon Tea for shakashaka@foo.com
+I20200512-19:30:42.945(-10)?  Adding Menu Item: Green Lemon Tea for shakashaka@foo.com
+I20200512-19:30:42.946(-10)?  Adding Menu Item: Bubble Black Milk Tea for shakashaka@foo.com
+I20200512-19:30:42.948(-10)?  Adding Menu Item: Taro Black Milk Tea for shakashaka@foo.com
+I20200512-19:30:42.950(-10)?  Adding Menu Item: Orange C-Booster for jambajuice@foo.com
+I20200512-19:30:42.954(-10)?  Adding Menu Item: Apple 'N Greens for jambajuice@foo.com
+I20200512-19:30:42.956(-10)?  Adding Menu Item: Strawberry Wild for jambajuice@foo.com
+I20200512-19:30:42.957(-10)?  Adding Menu Item: Matcha Green Tea for jambajuice@foo.com
+I20200512-19:30:42.958(-10)?  Adding Menu Item: Orange Chicken for pandaexpress@foo.com
+I20200512-19:30:42.960(-10)?  Adding Menu Item: Kung Pao Chicken for pandaexpress@foo.com
+I20200512-19:30:42.963(-10)?  Adding Menu Item: Teriyaki Chicken for pandaexpress@foo.com
+I20200512-19:30:42.965(-10)?  Adding Menu Item: Beef Broccoli for pandaexpress@foo.com
+I20200512-19:30:42.967(-10)?  Adding Menu Item: Black Pepper Angus Steak for pandaexpress@foo.com
+I20200512-19:30:42.969(-10)?  Adding Menu Item: SweetFire Chicken for pandaexpress@foo.com
+I20200512-19:30:42.970(-10)?  Adding Menu Item: Firecracker Shrimp for pandaexpress@foo.com
+I20200512-19:30:42.973(-10)?  Adding Menu Item: Mushroom Chicken for pandaexpress@foo.com
+I20200512-19:30:43.083(-10)?  Adding Menu Item: Honey Walnut Shrimp for pandaexpress@foo.com
+I20200512-19:30:43.086(-10)?  Adding Menu Item: Chicken Egg Roll for pandaexpress@foo.com
+I20200512-19:30:43.088(-10)?  Adding Menu Item: Iced Coffee for dunkindonuts@foo.com
+I20200512-19:30:43.089(-10)?  Adding Menu Item: Iced Macchiato for dunkindonuts@foo.com
+I20200512-19:30:43.091(-10)?  Adding Menu Item: Black Forest Ham for subway@foo.com
+I20200512-19:30:43.093(-10)?  Adding Menu Item: Chicken and Bacon Ranch Melt for subway@foo.com
+I20200512-19:30:43.095(-10)?  Adding Menu Item: Meatball Marinara for subway@foo.com
+I20200512-19:30:43.099(-10)?  Adding Menu Item: Spicy Italian for subway@foo.com
+I20200512-19:30:43.100(-10)?  Adding Menu Item: Sweet Onion Chicken Teriyaki for subway@foo.com
+I20200512-19:30:43.103(-10)?  Adding Menu Item: Black Forest Ham Salad for subway@foo.com
+I20200512-19:30:43.105(-10)?  Adding Menu Item: Meatball Marinara Salad for subway@foo.com
+I20200512-19:30:43.108(-10)?  Adding Menu Item: Veggie Delite Salad for subway@foo.com
+I20200512-19:30:43.110(-10)? Creating past order data.
+I20200512-19:30:43.111(-10)?  Adding: Past orders: Bale for admin@foo.com
+I20200512-19:30:43.112(-10)?  Adding: Past orders: Pieology for john@foo.com
+I20200512-19:30:43.114(-10)? Creating past delivery data.
+I20200512-19:30:43.117(-10)?  Adding: Past orders: Raising Cane's for admin@foo.com
+I20200512-19:30:43.119(-10)?  Adding: Past orders: Starbucks for john@foo.com
   ````
 _Note:_ You can modify the default users in `/config/settings.development.json`. To modify default restaurants and menu items, you can go to `app/private` directory and select the edit the respective .json files (eg. defaultRestaruants, defaultMenu, etc...)
 
