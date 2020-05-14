@@ -301,6 +301,9 @@ The goal of Milestone 3 is to finish and finalize the fuctionality for students 
 **To see which issues have been finished during M3, please click [here](https://github.com/ono-otw/ono-otw/projects/4)**
 
 ## Community Feedback
+
+We asked 5 community members for feedback. Using their feedback, we were able to make the UI more simplistic and easy to navigate, as well as fix some bugs we did not catch earlier.
+
 **Luke M.**
 - Homepage looks really nice, but the "Order Food" could be centered vertically. The Mobile part is also out of place. 
 - It would be better to have a toggle for the courier and the customer in the Nav bar.
@@ -314,6 +317,12 @@ The goal of Milestone 3 is to finish and finalize the fuctionality for students 
 - Large selection to choose from 
 - Missing some food items.
 - User is able to submit an order without putting their location, even when the field is marked as required
+
+**Aaron G.**
+- Nice design, cool UI, easy to figure out, nice logo, main screen is kinda cool
+- Need to change the font color on the main page to a darker color because it could blend in with white
+- Nice check mark animation
+- Cart Screen: Location isn't a good thing to put under order. Instead do an order style or delivery style. It could have an 'Add more' option
 
 ## Extra enhancements
 After implementing the basic functionality, some additional features may include:
