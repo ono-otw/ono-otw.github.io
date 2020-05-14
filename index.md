@@ -4,8 +4,8 @@
 * [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
 * [Development History](#project-development-history)
+* [Community Feedback](#community-feedback)
 * [Developers](#developers)
-* [Running Deployment](http://ono-otw.meteorapp.com/)
 
 ## Overview
 
@@ -28,9 +28,11 @@ This section provides a walkthrough of our interface and its current capabilitie
 ### Landing Page
 
 This is the first page that students see upon visiting the site.
-
-You can find our landing page [here](http://ono-otw.meteorapp.com/).
 <img src="/Images/Landing-gif.gif">
+
+### Nav Bar
+Users are able to toggle between "Consumer" and "Deliverer". It changes the associated options for each.
+<img src="/Images/NavBar-gif.gif">
 
 ### Sign up and sign in
 This is where students can sign in or sign up.
@@ -237,7 +239,6 @@ Head on over to `http://localhost:3000` to see the application.
 To adhere to common coding standards, you an evoke the command `meteor npm run lint` to run ESLint.
 
 ## Project Development History
-Running deployment on Galaxy: [OOTW](http://ono-otw.meteorapp.com/)
 
 To track our progress via Milestones:
 - [Milestone 1](https://github.com/ono-otw/ono-otw/projects/3)
@@ -278,6 +279,20 @@ The goal of Milestone 3 is to finish and finalize the fuctionality for students 
 
 **To see our current progress for M3, please click [here](https://github.com/ono-otw/ono-otw/projects/4)**
 
+## Community Feedback
+**Luke M.**
+- Homepage looks really nice, but the "Order Food" could be centered vertically. The Mobile part is also out of place. 
+- It would be better to have a toggle for the courier and the customer in the Nav bar.
+- The card should be clickable and not the name itself. The tags should also be inside the card
+- User is able to submit an order without putting their location, even when the field is marked as required.
+
+**Jason K.**
+- Clean looking website. Flows well. 
+- The landing page has a white word that lays on top of white background
+-The animation for adding to cart is cool
+- Large selection to choose from 
+- Missing some food items.
+- User is able to submit an order without putting their location, even when the field is marked as required
 
 ## Extra enhancements
 After implementing the basic functionality, some additional features may include:
