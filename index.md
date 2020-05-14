@@ -71,7 +71,7 @@ Below is a gif that shows the capabilites listed above:
 This is how the cart page will look like upon checking out. If users allow us to use their location, it will autofill it. 
 <img src="/Images/Cart.png">
 
-However, if they chose not to turn on location, they are able to edit the field themselves.
+However, if they choose not to turn on location, they are able to edit the field themselves.
 <img src="/Images/Cart-2.png">
 
 Trying to order without inputting their location results in an error.
@@ -85,14 +85,14 @@ Students who are looking for orders to accept can accept them here.
 <img src="/Images/Accept-Order.png">
 
 If there are no pending orders, this displays:
-<img src="/Images/Accept-Order-2.png">
+<img src="/Images/Deliver-Order-2.png">
 
 ### Deliver Order
 Upon accepting the order, students are provided with more information about it such the total cost and the customer's venmo:
 <img src="/Images/Deliver-Order.png">
 
 If they haven't accepted any orders yet, this shows:
-<img src="/Images/Deliver-Order-2.png">
+<img src="/Images/Accept-Order-2.png">
 
 ### Tracking
 For deliverers, they are able to check the location they need to head to. 
