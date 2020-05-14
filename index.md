@@ -30,7 +30,7 @@ This section provides a walkthrough of our interface and its current capabilitie
 This is the first page that students see upon visiting the site.
 
 You can find our landing page [here](http://ono-otw.meteorapp.com/).
-<img src="/Images/ono otw_landing.jpg">
+<img src="/Images/Landing-gif.gif">
 
 ### Sign up and sign in
 This is where students can sign in or sign up.
@@ -39,7 +39,7 @@ This is where students can sign in or sign up.
 <img src="/Images/Signin-Mock%20Up.png">
 
 ###  Profile Page
-This where you can see the profile of the deliverer or customer. It shows the user's favorites, and past orders/delivery. A functional rating system is yet to be implemented. 
+This where you can see the profile of the deliverer or customer. It shows the user's favorites, and past orders/delivery.
 <img src="/Images/Profile-Mockup.gif">
 
 You can edit your profile below. Your venmo will only be shown upon delivery/ordering to the customer/deliver.
@@ -56,16 +56,24 @@ This is how the menu will look like. Panda Express was used as an example but al
 Upon clicking the menu item, this box will pop up which allows you to customize your order. 
 <img src="/Images/Menu-Mockup-2.png">
 
+If you are not logged in, this error shows up:
+<img src="/Images/Menu-Mockup-4.png">
+
 The "Cart" button at the bottom brings up your current cart. 
 <img src="/Images/Menu-Mockup-3.png">
 
 Below is a gif that shows the capabilites listed above:
 <img src="/Images/Menu-Mockup-gif.gif">
 
-
 ###  Cart Page 
-This is how the cart page will look like upon checking out.
+This is how the cart page will look like upon checking out. If users allow us to use their location, it will autofill it. 
 <img src="/Images/Cart.png">
+
+However, if they chose not to turn on location, they are able to edit the field themselves.
+<img src="/Images/Cart-2.png">
+
+Trying to order without inputting their location results in an error.
+<img src="/Images/Cart-3.png">
 
 If your cart is empty, this shows:
 <img src="/Images/Cart-empty.png">
@@ -84,6 +92,14 @@ Upon accepting the order, students are provided with more information about it s
 If they haven't accepted any orders yet, this shows:
 <img src="/Images/Deliver-Order-2.png">
 
+### Tracking (Mock-Up)
+For deliverers, they are able to check the location they need to head to. 
+<img src="/Images/tracking.png">
+
+### Rating
+After your order is delivered, you are prompted to rate the service:
+<img src="/Images/Rating.png">
+
 
 ### Admin Page 
 This is the admin page where admins and/or moderators can approve restaurants to be added to the list. Restaurants can also be deleted if necessary. 
@@ -98,9 +114,6 @@ Admins and/or moderators are also allowed to edit restaurant fields:
 Admins are also able to add a restaurant:
 <img src="/Images/Add-Restaurant.png">
 
-### Tracking (Mock-Up)
-Allows you to track your order and communicate with the deliverer.
-<img src="/Images/tracking.png">
 
 ### Developer Guide
 1. Install meteor
