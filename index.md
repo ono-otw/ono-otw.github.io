@@ -324,6 +324,13 @@ We asked 5 community members for feedback. Using their feedback, we were able to
 - Nice check mark animation
 - Cart Screen: Location isn't a good thing to put under order. Instead do an order style or delivery style. It could have an 'Add more' option
 
+**Kylie U.**
+- Good design, easy navigation, clear instructions
+- Easy to make an account
+- Overall easy to use
+- The company would have to be the one to accept the order because if the user has access and accidentally accepts their order, then they would have wasted their money. 
+- On the home page it says "replace with 1125 x 2436 image" on the iPhone image"
+
 ## Extra enhancements
 After implementing the basic functionality, some additional features may include:
 - Expanding to not just food (eg. Art supplies from UH Manoa Bookstore)
