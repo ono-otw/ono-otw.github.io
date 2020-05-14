@@ -331,6 +331,12 @@ We asked 5 community members for feedback. Using their feedback, we were able to
 - The company would have to be the one to accept the order because if the user has access and accidentally accepts their order, then they would have wasted their money. 
 - On the home page it says "replace with 1125 x 2436 image" on the iPhone image"
 
+**Anonymous UH member**
+- The look is simple but easy on the eyes. I wouldn't overlay the white text with white background, makes it hard to read. 
+- A bit too much space in between "Order Food" and the background. In general, too much unused space requiring the user to scroll a lot. I would also center the titles to the photos
+- Confusion when accepting orders as a deliverer and then told to make an order when all orders are accepted
+- Add a hyperlink under "Order Food" to restaurants to make it easier to order food
+
 ## Extra enhancements
 After implementing the basic functionality, some additional features may include:
 - Expanding to not just food (eg. Art supplies from UH Manoa Bookstore)
